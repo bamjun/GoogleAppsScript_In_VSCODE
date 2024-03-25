@@ -1,6 +1,5 @@
 #!"C:\Program Files\Git\git-bash.exe"
 
-
 git add .
 if [ -z "$1" ]; then
     echo "커밋 메시지를 입력하세요."
