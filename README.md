@@ -6,7 +6,7 @@
 - vscode 설치  
 - node 설치  
 
-# clasp을 애용해서 vscode에서 apps script 사용하기. [github](https://github.com/google/clasp)  
+# clasp을 이용해서 vscode에서 apps script 사용하기. [github](https://github.com/google/clasp)  
 
 - clasp 설치하기  
   
