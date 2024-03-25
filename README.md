@@ -47,5 +47,47 @@
 
     &darr; `/` &darr; `bash shell`
     ```bash
-    clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz" --rootDir src
+    clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz" --rootDir ./src
     ```
+
+<br>
+
+- `appsscript.json` 파일 기본 경로로 옴기기.  
+  - clasp 명령어를 기본경로에서 실행하기 위한 경로이동.  
+  
+    &darr; `/` &darr; `bash shell`
+    ```bash
+    mv src/.clasp.json .clasp.json
+    ```  
+
+<br>
+
+- clasp push [-w]  
+  - 구글로 업로드  
+  - -w 옵션 실행시 변경사항 있을땜다 자동으로 푸쉬함.(종료는 ctrl+c)  
+  
+    &darr; `/` &darr; `bash shell`
+    ```bash
+    clasp push
+    ```
+
+- clasp pull
+  - 구글에서 불러오기  
+
+    &darr; `/` &darr; `bash shell`
+    ```bash
+    clasp pull
+    ```
+
+<br>  
+
+---  
+
+# Google Apps Script 자동환성 VSCODE에서 적용하기 [문서](https://github.com/google/clasp/blob/master/docs/typescript.md)  
+
+- npm으로 설치하기  
+  
+  &darr; `/` &darr; `bash shell`
+  ```bash
+  npm i -S @types/google-apps-script
+  ```
