@@ -45,7 +45,7 @@
   - clasp clone "AppsScript-Project-Id" --rootDir [폴더명]
   - --rootDir [폴더명] : 폴더명의 폴더가없으면 에러뜸, 폴더명에 코드 넣어짐(옵션)  
 
- &darr; `/` &darr; `bash shell`
- ```bash
- clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz" --rootDir src
- ```
+    &darr; `/` &darr; `bash shell`
+    ```bash
+    clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz" --rootDir src
+    ```
