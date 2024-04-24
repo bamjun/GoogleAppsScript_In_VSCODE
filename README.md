@@ -44,16 +44,20 @@
 - AppsScript불러오기  
   - clasp clone "AppsScript-Project-Id" --rootDir [폴더명]
   - --rootDir [폴더명] : 폴더명의 폴더가없으면 에러뜸, 폴더명에 코드 넣어짐(옵션)  
+  - `--rootDir` 옵션 넣을필요없음, 오히려 불편함.. 코드가, 폴더로 들어가고 업로드를 하려면 다시 옴겨야함.
 
     &darr; `/` &darr; `bash shell`
     ```bash
-    clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz" --rootDir ./src
+    clasp clone "1KWVXjyD1XEifIYQYTLdJs40w-ATBt09QF8bRlmRz9fi_662h6-ZuS6Mz"
     ```
 
 <br>
 
 - `appsscript.json` 파일 기본 경로로 옴기기.  
   - clasp 명령어를 기본경로에서 실행하기 위한 경로이동.  
+  - 아래 그림과 같이 폴더에 안들어가 있으면 이 코드는 필요없음.  코드 수정후 푸시하면됨  
+
+    ![alt text](images/markdown-image.png)  
   
     &darr; `/` &darr; `bash shell`
     ```bash
